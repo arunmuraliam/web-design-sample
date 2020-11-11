@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website2</title>
+    <title>Nature</title>
     <link rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -13,14 +13,18 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <header>
       <!-- Navbar -->
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">Nature</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -30,7 +34,7 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-lg-auto">
-              <li class="nav-item active">
+              <li class="nav-item ">
                 <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
@@ -55,8 +59,11 @@
       <div class="container h100">
         <div class="contentBox h100">
           <div>
-            <h1>Undiscovered Beauty</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+            <!--Annimations-->
+            <h1 data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="50">Undiscovered Beauty</h1>
+            <p data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="500">Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s,
               when an unknown printer took a galley of type and scrambled it to
@@ -73,8 +80,10 @@
         <div class="row">
           <div class="offset-sm-2 col-sm-8">
             <div class="headerText text-center">
-              <h2>Explore The World</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and
+              <h2 data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="0">Explore The World</h2>
+              <p data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="0">Lorem Ipsum is simply dummy text of the printing and
                 typesetting industry. Lorem Ipsum has been the industry's
                 standard dummy text ever since the 1500s,
                 when an unknown printer took a galley of type and scrambled it
@@ -87,7 +96,8 @@
         </div>
         <div class="row">
           <div class="col-sm-4">
-            <div class="placebox">
+            <div class="placebox" data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="0">
               <div class="imgBx">
                 <img src="images/img6.jpg" class="img-fluid" alt="">
               </div>
@@ -98,7 +108,8 @@
             </div>
           </div>
           <div class="col-sm-4">
-              <div class="placebox">
+              <div class="placebox" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="500">
                 <div class="imgBx">
                   <img src="images/img4.jpg" class="img-fluid" alt="">
                 </div>
@@ -109,7 +120,8 @@
               </div>
           </div>
           <div class="col-sm-4">
-              <div class="placebox">
+              <div class="placebox" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="1000">
                 <div class="imgBx">
                   <img src="images/img7.jpg" class="img-fluid" alt="">
                 </div>
@@ -129,15 +141,18 @@
       <div class="container h100">
         <div class="contentBox h100">
           <div>
-            <h1>Adventure is Everywhere</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and
+            <h2 data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="0">Adventure is Everywhere</h2>
+            <p data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="0">Lorem Ipsum is simply dummy text of the printing and
               typesetting industry. Lorem Ipsum has been the industry's
               standard dummy text ever since the 1500s,
               when an unknown printer took a galley of type and scrambled it
               to make a type specimen book. It has survived not only five
               centuries, but also the leap into
               electronic typesetting, remaining essentially unchanged.</p>
-              <a href="" class="btn btnD1">Read More</a>
+              <a href="" class="btn btnD1" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="50">Read More</a>
           </div>
 
         </div>
@@ -149,9 +164,11 @@
       <div class="container">
         <div class="row">
           <div class="offset-sm-2 col-sm-8">
-            <div class="headerText">
-              <h2>Our Latest Post</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and
+            <div class="headerText text-center">
+              <h2 data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="0">Our Latest Post</h2>
+              <p data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="0">Lorem Ipsum is simply dummy text of the printing and
                 typesetting industry. Lorem Ipsum has been the industry's
                 standard dummy text ever since the 1500s,
                 when an unknown printer took a galley of type and scrambled it
@@ -161,55 +178,8 @@
         </div>
         <div class="row">
           <div class="col-sm-6">
-            <div class="blogpost">
-              <div class="imgBx">
-                <img src="images/img1.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="content">
-                <h1>Lorem Ipsum is simply dummy text.</h1>
-                <p> Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it
-                  to make a type specimen book. It has survived not only five
-                  centuries, but also the leap into
-                  electronic typesetting, remaining essentially unchanged.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="blogpost">
-              <div class="imgBx">
-                <img src="images/img5.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="content">
-                <h1>Lorem Ipsum is simply dummy text.</h1>
-                <p> Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it
-                  to make a type specimen book. It has survived not only five
-                  centuries, but also the leap into
-                  electronic typesetting, remaining essentially unchanged.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="blogpost">
-              <div class="imgBx">
-                <img src="images/img6.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="content">
-                <h1>Lorem Ipsum is simply dummy text.</h1>
-                <p> Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it
-                  to make a type specimen book. It has survived not only five
-                  centuries, but also the leap into
-                  electronic typesetting, remaining essentially unchanged.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="blogpost">
+            <div class="blogpost" data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="0">
               <div class="imgBx">
                 <img src="images/img7.jpg" class="img-fluid" alt="">
               </div>
@@ -221,6 +191,67 @@
                   to make a type specimen book. It has survived not only five
                   centuries, but also the leap into
                   electronic typesetting, remaining essentially unchanged.</p>
+                  <a href="" class="btn btnD2">Read More</a>
+                  <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6" data-aos="fade-up" data-aos-duration="1000"
+          data-aos-delay="500">
+            <div class="blogpost" data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="0">
+              <div class="imgBx">
+                <img src="images/img5.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="content">
+                <h1>Lorem Ipsum is simply dummy text.</h1>
+                <p> Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s,
+                  when an unknown printer took a galley of type and scrambled it
+                  to make a type specimen book. It has survived not only five
+                  centuries, but also the leap into
+                  electronic typesetting, remaining essentially unchanged.</p>
+                  <a href="" class="btn btnD2">Read More</a>
+                  <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6" >
+            <div class="blogpost" data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="0">
+              <div class="imgBx">
+                <img src="images/img6.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="content">
+                <h1>Lorem Ipsum is simply dummy text.</h1>
+                <p> Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s,
+                  when an unknown printer took a galley of type and scrambled it
+                  to make a type specimen book. It has survived not only five
+                  centuries, but also the leap into
+                  electronic typesetting, remaining essentially unchanged.</p>
+                  <a href="" class="btn btnD2">Read More</a>
+                  <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6" data-aos="fade-up" data-aos-duration="1000"
+          data-aos-delay="500">
+            <div class="blogpost" data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="0">
+              <div class="imgBx">
+                <img src="images/img7.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="content">
+                <h1>Lorem Ipsum is simply dummy text.</h1>
+                <p> Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s,
+                  when an unknown printer took a galley of type and scrambled it
+                  to make a type specimen book. It has survived not only five
+                  centuries, but also the leap into
+                  electronic typesetting, remaining essentially unchanged.</p>
+                  <a href="" class="btn btnD2">Read More</a>
+                  <div class="clearfix"></div>
               </div>
             </div>
           </div>
@@ -234,15 +265,18 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="headerText text-center">
-              <h2>Contact Us</h2>
-              <p> when an unknown printer took a galley of type and scrambled it
+              <h2 data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="50">Contact Us</h2>
+              <p data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="50"> when an unknown printer took a galley of type and scrambled it
                specimen book.</p>
             </div>
           </div>
         </div>
         <div class="row clearfix">
           <div class="offset-sm-2 col-sm-8">
-            <form>
+            <form data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="0">
               <div class="form-group">
                 <label for="">Name</label>
                 <input type="text" class="form-control" name="">
@@ -259,7 +293,7 @@
                 <label for="">Message</label>
                 <textarea class="form-control textarea" name="" id="" cols="30" rows="10"></textarea>
               </div>
-              <div class="form-group">
+              <div class="form-group text-center">
                <button class="btn btnD1">Send</button>
               </div>
             </form>
@@ -274,18 +308,13 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <ul class="sci">
-             
-              <a class="btn-floating btn-lg btn-fb" type="button" role="button"><i class="fab fa-facebook-f"></i></a>
-              <!--Twitter-->
-              <a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a>
-              <!--Google +-->
-              <a class="btn-floating btn-lg btn-gplus" type="button" role="button"><i class="fab fa-google-plus-g"></i></a>
-              <!--Linkedin-->
-              <a class="btn-floating btn-lg btn-li" type="button" role="button"><i class="fab fa-linkedin-in"></i></a>
-              <!--Instagram-->
-              <a class="btn-floating btn-lg btn-ins" type="button" role="button"><i class="fab fa-instagram"></i></a>
-            </ul>
+            <div class="icons">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-google"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-instagram"></a>
+            </div>
             <p class="cpryt">
               © Copyright 2019 Nature | By Online
             </p>
@@ -304,6 +333,10 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
       integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
       crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>  
     
     
     <script type="text/javascript">
